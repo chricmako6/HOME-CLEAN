@@ -1,7 +1,7 @@
-import Home from "./pages/Home";
+import Hero from "../src/Container/Hero";
 
 export default function App(){
   return(
-    <Home/>
+    <Hero/>
   );
 }
