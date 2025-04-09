@@ -5,8 +5,13 @@
 @tailwind utilities;
 
 body{
-    background-color: #D9D9D9;
     font-family: "Didact Gothic", sans-serif;
+}
+
+h1{
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
 }
 
 
