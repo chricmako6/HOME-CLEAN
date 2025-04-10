@@ -5,13 +5,12 @@ export default function Hero(){
         <>
         <Navbar/>
         <section className="hero relative grid grid-cols-2  h-screen container max-w-full">
-            
          <div className="shadowy">
-            <div className="my-24  pl-20 ">
+            <div className="my-36 pl-20 ">
                 <h1 className="leading-[80px] font-bold">
                 Find Your<br/> <span className="text-Primary">Perfect</span> Cleaning<br/> Match!
                 </h1>
-                <p className="font-bold text-base text-[17px] text-Paragraph my-8">Connect with trusted cleaning professinals instantily. Book, Chat and pay securely, all in one place.
+                <p className="font-bold text-base text-[18px] text-Paragraph my-8">Connect with trusted cleaning professinals instantily. Book, Chat and pay securely, all in one place.
                 </p>
 
                 <div className="bg-white rounded-full flex items-center justify-between p-3 shadow-md shadow-gray-300 w-[500px]">
