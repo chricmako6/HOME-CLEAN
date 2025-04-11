@@ -2,13 +2,13 @@ import { Globe, ChevronDown } from "lucide-react";
 export default function Navbar(){
     return(
         <>
-        <div className="flex w-screen items-center justify-between p-4 bg-white shadow-md shadow-gray-300 fixed z-10 h-[80px]">
+        <div className="flex w-screen items-center justify-between p-4 bg-white shadow-md shadow-gray-200 fixed z-10 h-[80px]">
                  <div>
-                    <h1  className="text-[50px] pl-20">
+                    <h1  className="text-[50px] pl-10 md:pl-20">
                         <span className="text-Primary">Home</span>Clean.
                     </h1>
                 </div>
-            <nav className="flex items-center pr-10 text-[17px] mr-12">
+            <nav className="flex items-center pr-10 text-[17px] mr-12 md:block hidden">
                 <ul className="flex font-semibold gap-8 text-Paragraph items-center">
                     <li>Residential Cleaning</li>
                     <li>Commercial Cleaning</li>

@@ -4,11 +4,11 @@ export default function Hero(){
     return(
         <>
         <Navbar/>
-        <section className="hero relative grid grid-cols-2  h-screen container max-w-full">
+        <section className="hero relative grid grid-cols-2 h-[600px] md:h-screen container max-w-full">
          <div className="shadowy">
-            <div className="my-36 pl-20 ">
-                <h1 className="leading-[80px] font-bold">
-                Find Your<br/> <span className="text-Primary">Perfect</span> Cleaning<br/> Match!
+            <div className="my-36 pl-10 md:pl-20 absolute">
+                <h1 className="leading-[75px]">
+                Find Your <br/> <span className="text-Primary">Perfect</span> Cleaning <br/> Match!
                 </h1>
                 <p className="font-bold text-base text-[18px] text-Paragraph my-8">Connect with trusted cleaning professinals instantily. Book, Chat and pay securely, all in one place.
                 </p>
